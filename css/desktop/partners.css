@@ -1,0 +1,77 @@
+.partners {
+    height: 40rem;
+}
+
+.partners--background-img {
+    background-image: url("/img/partners/partners-background.jpg");
+    background-size: 100% 100%;
+}
+
+.partners__heading--underline {
+    padding-bottom: 8px;
+
+    background: url("/img/partners/underline-white-right.png") no-repeat;
+    background-position: 97% 100%;
+    background-size: 38% 4px;
+}
+
+.partners__customer-logos-container {
+    display: flex;
+
+    margin-top: 10rem;
+
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.partners__customer-logos__nav-arrow--left {
+    width: 2rem;
+    height: 4rem;
+
+    cursor: pointer;
+    pointer-events: all;
+
+    background: url("/img/partners/back-btn-left.png");
+    background-size: cover;
+}
+
+.partners__customer-logos__nav-arrow--right {
+    width: 2rem;
+    height: 4rem;
+
+    cursor: pointer;
+    pointer-events: all;
+
+    background: url("/img/partners/back-btn-right.png");
+    background-size: 100% 100%;
+}
+
+.partners__customer-logo__mccann {
+    width: 13rem;
+}
+
+.partners__customer-logo__un-women {
+    width: 13rem;
+}
+
+.partners__customer-logo__accenture {
+    width: 13rem;
+
+    align-self: flex-start;
+}
+
+.partners__customer-logo__cisco {
+    width: 9rem;
+}
+
+.partners__customer-logo__eventribe {
+    width: 13rem;
+}
+
+.partners__customer-logo__zappos {
+    width: 12rem;
+}
+
+.partners__customer-logo__siemens {
+    width: 15rem;
+}

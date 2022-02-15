@@ -1,0 +1,253 @@
+.about-us {
+    display: flex;
+
+    height: 60rem;
+}
+
+.about-us__bookmark-container {
+    display: flex;
+    flex-direction: column;
+
+    width: 15%;
+
+    align-items: flex-end;
+}
+
+.about-us__bookmark {
+    position: relative;
+
+    display: inline-block;
+
+    margin-right: 5rem;
+
+    transform: rotate(180deg);
+    text-align: right;
+    vertical-align: middle;
+    letter-spacing: 3px;
+
+    color: rgba(3, 118, 147, 0.9);
+    border: 1px solid #037693;
+    border-bottom: none;
+
+    font-size: 3rem;
+    font-weight: 300;
+
+    writing-mode: vertical-rl;
+}
+
+.about-us__bookmark--padding {
+    padding: 16rem 1.5rem 1.5rem 2rem;
+}
+
+.about-us__bookmark::after {
+    position: absolute;
+    top: 0;
+    left: 25%;
+
+    display: inline-block;
+
+    content: url("/img/about-us/about-us-blue-line-circle.png");
+    transform: rotate(180deg) scale(0.7);
+}
+
+.about-us__heading-container {
+    width: 85%;
+    margin: 2.5rem 0;
+}
+
+.about-us__heading--underline {
+    padding-bottom: 8px;
+
+    background: url("/img/general/underline-blue-right.png") no-repeat;
+    background-position: 97% 100%;
+    background-size: 37% 4px;
+}
+
+.about-us__container {
+    width: 100%;
+}
+
+.about-us__main-sub-text--blue {
+    color: #037693;
+}
+
+.about-us__info-container {
+    display: flex;
+}
+
+.about-us__text-container {
+    display: flex;
+    flex-direction: column;
+
+    width: 50%;
+
+    align-items: flex-start;
+}
+
+.about-us__main-text {
+    width: 50%;
+
+    font-size: 5rem;
+    font-weight: bold;
+    line-height: 1.3;
+}
+
+.about-us__sub-text {
+    letter-spacing: 1px;
+
+    font-size: 2.6rem;
+}
+
+.about-us__sub-text--blue-line {
+    padding-right: 20rem;
+
+    background: url("/img/about-us/blue-line.png") no-repeat;
+    background-position: 93% 100%;
+    background-size: 35% 0.15rem;
+}
+
+.about-us__secondary-text {
+    width: 56rem;
+
+    color: rgba(0, 0, 0, 0.9);
+
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 1.3;
+}
+
+.about-us__secondary-text--mt-md {
+    margin-top: 3rem;
+}
+
+.about-us__statistics-container {
+    display: flex;
+
+    margin-top: 5rem;
+    padding-right: 3rem;
+
+    gap: 3rem;
+}
+
+.about-us__statistics-card {
+    display: flex;
+    flex-direction: column;
+
+    height: 20.5rem;
+
+    align-items: center;
+    gap: 1.6rem;
+}
+
+.about-us__statistics-card--bb--green {
+    border-bottom: 3px solid #4ca59a;
+}
+
+.about-us__statistics-card--bb--red {
+    border-bottom: 3px solid #f26250;
+}
+
+.about-us__statistics-card--bb--orange {
+    border-bottom: 3px solid #f0a765;
+}
+
+.about-us__statistics-circle {
+    width: 4rem;
+    height: 4rem;
+
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.about-us__statistics-number {
+    margin-top: 1rem;
+
+    font-size: 5rem;
+}
+
+.about-us__statistics-text {
+    margin-top: 1.5rem;
+
+    text-align: center;
+
+    color: rgba(0, 0, 0, 0.8);
+
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+
+.about-us__statistics-circle--green {
+    background-color: #4ca59a;
+    box-shadow: 0 0 0 10px #a5d2cc;
+}
+
+.about-us__statistics-circle--red {
+    background-color: #f26250;
+    box-shadow: 0 0 0 10px #f8b0a7;
+}
+
+.about-us__statistics-circle--orange {
+    background-color: #f0a765;
+    box-shadow: 0 0 0 10px #f7d3b2;
+}
+
+.about-us__statistics-number--green {
+    color: #4ca59a;
+}
+
+.about-us__statistics-number--red {
+    color: #f26250;
+}
+
+.about-us__statistics-number--orange {
+    color: #f0a765;
+}
+
+@media (max-width: 1350px) {
+    .about-us {
+        display: flex;
+
+        height: 70rem;
+    }
+
+    .about-us__main-text {
+        width: 70%;
+
+        font-size: 5rem;
+        font-weight: bold;
+        line-height: 1.3;
+    }
+
+    .about-us__secondary-text {
+        width: 45rem;
+
+        color: rgba(0, 0, 0, 0.9);
+
+        font-size: 2rem;
+        font-weight: 300;
+        line-height: 1.3;
+    }
+
+    .about-us__sub-text--blue-line {
+        padding-right: 15rem;
+
+        background-position: 93% 100%;
+        background-size: 26% 0.15rem;
+    }
+
+    .about-us__secondary-text--small-screen {
+        display: none;
+    }
+}
+
+@media (max-width: 1200px) {
+    .about-us__bookmark--padding {
+        padding: 18rem 1.5rem 1.5rem 2rem;
+    }
+}
+
+@media (max-width: 1080px) {
+    .about-us__text-container {
+        width: 60%;
+    }
+}

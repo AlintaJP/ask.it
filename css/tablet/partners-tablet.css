@@ -1,0 +1,47 @@
+/* TABLET */
+@media (max-width: 980px) {
+    .partners {
+        height: 65rem;
+    }
+
+    .partners--background-img {
+        background-image: url("/img/partners/partners-background-tablet.jpg");
+        background-size: cover;
+    }
+
+    .partners__heading--underline {
+        padding-bottom: 8px;
+
+        background: url("/img/partners/underline-white-right.png") no-repeat;
+        background-position: 97% 100%;
+        background-size: 38% 3px;
+    }
+
+    .partners__customer-logos-container {
+        display: grid;
+
+        width: 50%;
+        margin: 10rem auto 0;
+
+        align-items: center;
+        gap: 6rem;
+        grid-template-columns: repeat(3, 1fr);
+        justify-items: center;
+    }
+
+    .partners__heading {
+        font-size: 5rem;
+    }
+
+    .partners__customer-logos__nav-arrow--left {
+        display: none;
+    }
+
+    .partners__customer-logos__nav-arrow--right {
+        display: none;
+    }
+
+    .partners__customer-logo__siemens {
+        grid-column: -4/4;
+    }
+}

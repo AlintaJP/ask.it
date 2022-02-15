@@ -1,0 +1,175 @@
+.header__logo-container {
+    display: flex;
+
+    justify-self: center;
+}
+
+.header__logo {
+    height: 9rem;
+}
+
+.header__main-nav {
+    display: flex;
+
+    list-style: none;
+
+    font-size: 2.5rem;
+
+    align-items: center;
+    gap: 1.6rem;
+}
+
+.header__main-nav__link {
+    display: block;
+
+    padding: 4.4rem 0.2rem;
+
+    text-decoration: none;
+
+    color: #c8c7c7;
+    border-top: 3px solid transparent;
+}
+
+.header__main-nav__link:hover {
+    color: #ffffff;
+    border-top: 3px solid rgb(232, 233, 234);
+    background-color: #1e1d1d;
+}
+
+.header__login-signup-container {
+    display: flex;
+
+    gap: 2rem;
+}
+
+.header__login-signup__button {
+    display: inline-block;
+
+    text-decoration: none;
+
+    color: white;
+}
+
+.header__login-signup__icon-container {
+    display: flex;
+    flex-direction: column;
+
+    color: #c8c7c7;
+
+    font-size: 1.4rem;
+
+    align-items: center;
+}
+
+.login-sigup__icon {
+    font-size: 2.4rem;
+}
+
+.header {
+    height: 70rem;
+}
+
+.header-hero {
+    /* background-image: linear-gradient(rgba(67, 73, 118), rgba(86, 119, 149)),
+    url("/img/header/hero.png");
+  background-blend-mode: multiply; */
+    background-image: url("/img/header/hero-with-gradient.jpg");
+    background-size: cover;
+}
+
+.header-container {
+    display: flex;
+
+    height: 11.6rem;
+
+    background-color: #090909;
+
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.header__content-container {
+    display: flex;
+
+    height: 83.5%;
+}
+
+.header__content-wrapper {
+    position: relative;
+
+    width: 70%;
+}
+
+.header__phone-img-wrapper {
+    position: relative;
+
+    width: 30%;
+}
+
+.header__phone-img {
+    position: absolute;
+    top: 29%;
+
+    width: 25rem;
+}
+
+.header__headings-container {
+    display: flex;
+    flex-direction: column;
+
+    height: 40%;
+    margin-top: 11rem;
+
+    align-items: center;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.header__main-heading {
+    text-shadow: 1px 5px black;
+
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+.header__main-heading--underline {
+    padding-bottom: 8px;
+
+    background: url("/img/header/main-heading-underline.png") no-repeat;
+    background-position: 100% 100%;
+    background-size: 36% 4px;
+}
+
+.header__secondary-heading {
+    font-size: 3rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.header__buttons-container {
+    display: flex;
+
+    margin-top: 5rem;
+
+    gap: 3rem;
+    justify-content: center;
+}
+
+.header__button {
+    padding: 1.2rem 1.6rem;
+
+    color: white;
+    border: 1px solid white;
+    background: transparent;
+
+    font-size: 1.6rem;
+}
+
+.header__button--alt {
+    color: #037693;
+    background: #e8e9ea;
+}
+
+.header__burger-menu {
+    display: none;
+}

@@ -1,0 +1,96 @@
+/* TABLET */
+@media (max-width: 980px) {
+    .footer {
+        display: flex;
+        flex-direction: column;
+
+        height: 180rem;
+    }
+
+    .footer__resources-container {
+        display: grid;
+
+        width: 100%;
+        margin-top: 8rem;
+
+        gap: 0;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 40rem;
+        justify-items: center;
+    }
+
+    .footer__we-are-social-container {
+        width: 70%;
+        margin-top: 2rem;
+        margin-bottom: 6rem;
+        padding-right: 0;
+
+        gap: 5rem;
+        grid-column: -3 / span 2;
+    }
+
+    .footer__we-are-ask-it-container {
+        width: 100%;
+        margin-top: 10rem;
+    }
+
+    .footer__we-are-ask-it__text {
+        color: white;
+
+        font-size: 3.5rem;
+        font-weight: 300;
+    }
+
+    .footer__logo {
+        width: 14rem;
+    }
+
+    .footer__resources-heading {
+        font-size: 4rem;
+    }
+
+    .footer__resources__my-account-container {
+        width: auto;
+    }
+
+    .footer__resources__useful-links-container {
+        width: auto;
+    }
+
+    .footer__resources__link {
+        font-size: 3.25rem;
+        font-weight: 300;
+    }
+
+    .footer__resources-heading {
+        font-size: 5rem;
+    }
+
+    .footer__socials-logo {
+        font-size: 5rem;
+    }
+
+    .footer__resources__subscribe-text {
+        font-size: 4.5rem;
+        font-weight: 300;
+    }
+
+    .footer__resources__subscribe-input {
+        padding: 1rem;
+
+        font-size: 4rem;
+    }
+
+    .footer__copyright {
+        margin-top: 16rem;
+
+        color: rgba(255, 255, 255, 0.9);
+
+        font-size: 4rem;
+        font-weight: 300;
+    }
+
+    .footer__socials-logo--offset {
+        top: 17%;
+    }
+}
