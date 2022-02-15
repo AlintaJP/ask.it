@@ -33,15 +33,15 @@
         font-size: 5rem;
     }
 
-    .partners__customer-logos__nav-arrow--left {
+    .partners__customer-logos-nav-arrow--left {
         display: none;
     }
 
-    .partners__customer-logos__nav-arrow--right {
+    .partners__customer-logos-nav-arrow--right {
         display: none;
     }
 
-    .partners__customer-logo__siemens {
+    .partners__customer-logo-siemens {
         grid-column: -4/4;
     }
 }

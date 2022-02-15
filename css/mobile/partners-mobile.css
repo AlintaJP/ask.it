@@ -21,33 +21,33 @@
         row-gap: 5rem;
     }
 
-    .partners__customer-logo__mccann {
+    .partners__customer-logo-mccann {
         width: calc(13rem * 0.75);
     }
 
-    .partners__customer-logo__un-women {
+    .partners__customer-logo-un-women {
         width: calc(13rem * 0.75);
     }
 
-    .partners__customer-logo__accenture {
+    .partners__customer-logo-accenture {
         width: calc(13rem * 0.75);
 
         align-self: flex-start;
     }
 
-    .partners__customer-logo__cisco {
+    .partners__customer-logo-cisco {
         width: calc(9rem * 0.75);
     }
 
-    .partners__customer-logo__eventribe {
+    .partners__customer-logo-eventribe {
         width: calc(13rem * 0.75);
     }
 
-    .partners__customer-logo__zappos {
+    .partners__customer-logo-zappos {
         width: calc(12rem * 0.75);
     }
 
-    .partners__customer-logo__siemens {
+    .partners__customer-logo-siemens {
         width: calc(15rem * 0.75);
     }
 }

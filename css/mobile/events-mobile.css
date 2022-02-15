@@ -32,7 +32,7 @@
         height: 26rem;
     }
 
-    .events__card__preview-img-base {
+    .events__card-preview-img-base {
         height: unset;
 
         border-bottom: none;
@@ -74,19 +74,19 @@
         url("/img/events/public-speaking-2.png");
     }
 
-    .events__card__preview-img-1 {
+    .events__card-preview-img-1 {
         background-image: none;
     }
 
-    .events__card__preview-img-2 {
+    .events__card-preview-img-2 {
         background-image: none;
     }
 
-    .events__card__preview-img-3 {
+    .events__card-preview-img-3 {
         background-image: none;
     }
 
-    .events__card__content {
+    .events__card-content {
         display: grid;
 
         margin: 5rem auto 0;
@@ -98,14 +98,14 @@
         justify-items: center;
     }
 
-    .events__card__icon {
+    .events__card-icon {
         width: 5rem;
         margin-top: 0;
 
         font-size: 5rem;
     }
 
-    .events__card__icon--white {
+    .events__card-icon--white {
         color: white;
     }
 

@@ -1,45 +1,45 @@
 @media (max-width: 685px) {
-    .footer {
-        height: 120rem;
-    }
+  .footer {
+    height: 120rem;
+  }
 
-    .footer__resources__useful-links-container {
-        display: none;
-    }
+  .footer__resources-useful-links-container {
+    display: none;
+  }
 
-    .footer__we-are-social-container {
-        margin-left: 0;
-    }
+  .footer__we-are-social-container {
+    margin-left: 0;
+  }
 
-    .footer__resources__my-account-container {
-        display: none;
-    }
+  .footer__resources-my-account-container {
+    display: none;
+  }
 
-    .footer__logo {
-        width: calc(14rem * 0.75);
-    }
+  .footer__logo {
+    width: calc(14rem * 0.75);
+  }
 
-    .footer__we-are-ask-it__text {
-        font-size: calc(3.5rem * 0.75);
-    }
+  .footer__we-are-ask-it-text {
+    font-size: calc(3.5rem * 0.75);
+  }
 
-    .footer__resources-heading {
-        font-size: calc(5rem * 0.75);
-    }
+  .footer__resources-heading {
+    font-size: calc(5rem * 0.75);
+  }
 
-    .footer__socials-logo {
-        font-size: calc(5rem * 0.75);
-    }
+  .footer__socials-logo {
+    font-size: calc(5rem * 0.75);
+  }
 
-    .footer__resources__subscribe-text {
-        font-size: calc(4.5rem * 0.75);
-    }
+  .footer__resources-subscribe-text {
+    font-size: calc(4.5rem * 0.75);
+  }
 
-    .footer__resources__subscribe-input {
-        font-size: calc(4rem * 0.75);
-    }
+  .footer__resources-subscribe-input {
+    font-size: calc(4rem * 0.75);
+  }
 
-    .footer__copyright {
-        font-size: calc(4rem * 0.5);
-    }
+  .footer__copyright {
+    font-size: calc(4rem * 0.5);
+  }
 }

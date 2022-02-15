@@ -17,21 +17,21 @@
         gap: 1.6rem;
     }
 
-    .header__main-nav__link {
+    .header__main-nav-link {
         padding: 4.8rem 0.2rem;
 
         border-top: 1px solid transparent;
     }
 
-    .header__main-nav__link:hover {
+    .header__main-nav-link:hover {
         border-top: 1px solid rgb(232, 233, 234);
     }
 
-    .header__login-signup__icon-container {
+    .header__login-signup-icon-container {
         font-size: 1rem;
     }
 
-    .header__login-sigup__icon {
+    .header__login-sigup-icon {
         font-size: 1.8rem;
     }
 

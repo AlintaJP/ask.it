@@ -107,10 +107,6 @@
     margin-top: 3rem;
 }
 
-.features__grid-container--tablet {
-    display: none;
-}
-
 @media (max-width: 1090px) {
     .features__grid-container {
         display: grid;

@@ -34,7 +34,7 @@
         margin-top: 10rem;
     }
 
-    .footer__we-are-ask-it__text {
+    .footer__we-are-ask-it-text {
         color: white;
 
         font-size: 3.5rem;
@@ -49,15 +49,15 @@
         font-size: 4rem;
     }
 
-    .footer__resources__my-account-container {
+    .footer__resources-my-account-container {
         width: auto;
     }
 
-    .footer__resources__useful-links-container {
+    .footer__resources-useful-links-container {
         width: auto;
     }
 
-    .footer__resources__link {
+    .footer__resources-link {
         font-size: 3.25rem;
         font-weight: 300;
     }
@@ -70,12 +70,12 @@
         font-size: 5rem;
     }
 
-    .footer__resources__subscribe-text {
+    .footer__resources-subscribe-text {
         font-size: 4.5rem;
         font-weight: 300;
     }
 
-    .footer__resources__subscribe-input {
+    .footer__resources-subscribe-input {
         padding: 1rem;
 
         font-size: 4rem;

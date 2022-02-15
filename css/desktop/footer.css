@@ -27,7 +27,7 @@
     width: 9rem;
 }
 
-.footer__we-are-ask-it__text {
+.footer__we-are-ask-it-text {
     text-align: center;
 
     color: rgba(255, 255, 255, 0.8);
@@ -51,7 +51,7 @@
     font-weight: 400;
 }
 
-.footer__resources__list-container {
+.footer__resources-list-container {
     display: flex;
     flex-direction: column;
 
@@ -60,7 +60,7 @@
     gap: 0.5rem;
 }
 
-.footer__resources__link {
+.footer__resources-link {
     text-decoration: none;
 
     color: rgba(255, 255, 255, 0.8);
@@ -95,13 +95,13 @@
     font-size: 2.8rem;
 }
 
-.footer__resources__subscribe-text {
+.footer__resources-subscribe-text {
     color: rgba(255, 255, 255, 0.8);
 
     font-size: 2rem;
 }
 
-.footer__resources__subscribe-input {
+.footer__resources-subscribe-input {
     width: 100%;
     padding: 0.5rem;
 
@@ -115,7 +115,7 @@
     font-size: 1.5rem;
 }
 
-.footer__resources__subscribe-input-container {
+.footer__resources-subscribe-input-container {
     position: relative;
 
     display: flex;
@@ -140,11 +140,11 @@
 }
 
 @media (max-width: 1375px) {
-    .footer__resources__my-account-container {
+    .footer__resources-my-account-container {
         width: 25%;
     }
 
-    .footer__resources__useful-links-container {
+    .footer__resources-useful-links-container {
         width: 25%;
     }
 }

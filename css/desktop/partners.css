@@ -24,7 +24,7 @@
     justify-content: space-evenly;
 }
 
-.partners__customer-logos__nav-arrow--left {
+.partners__customer-logos-nav-arrow--left {
     width: 2rem;
     height: 4rem;
 
@@ -35,7 +35,7 @@
     background-size: cover;
 }
 
-.partners__customer-logos__nav-arrow--right {
+.partners__customer-logos-nav-arrow--right {
     width: 2rem;
     height: 4rem;
 
@@ -46,32 +46,32 @@
     background-size: 100% 100%;
 }
 
-.partners__customer-logo__mccann {
+.partners__customer-logo-mccann {
     width: 13rem;
 }
 
-.partners__customer-logo__un-women {
+.partners__customer-logo-un-women {
     width: 13rem;
 }
 
-.partners__customer-logo__accenture {
+.partners__customer-logo-accenture {
     width: 13rem;
 
     align-self: flex-start;
 }
 
-.partners__customer-logo__cisco {
+.partners__customer-logo-cisco {
     width: 9rem;
 }
 
-.partners__customer-logo__eventribe {
+.partners__customer-logo-eventribe {
     width: 13rem;
 }
 
-.partners__customer-logo__zappos {
+.partners__customer-logo-zappos {
     width: 12rem;
 }
 
-.partners__customer-logo__siemens {
+.partners__customer-logo-siemens {
     width: 15rem;
 }

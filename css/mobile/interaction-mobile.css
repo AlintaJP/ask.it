@@ -8,7 +8,7 @@
         justify-content: space-evenly;
     }
 
-    .interaction__tips__column {
+    .interaction__tips-column {
         display: flex;
         flex-direction: row;
 

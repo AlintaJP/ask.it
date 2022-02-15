@@ -19,7 +19,7 @@
     gap: 1.6rem;
 }
 
-.header__main-nav__link {
+.header__main-nav-link {
     display: block;
 
     padding: 4.4rem 0.2rem;
@@ -30,7 +30,7 @@
     border-top: 3px solid transparent;
 }
 
-.header__main-nav__link:hover {
+.header__main-nav-link:hover {
     color: #ffffff;
     border-top: 3px solid rgb(232, 233, 234);
     background-color: #1e1d1d;
@@ -42,7 +42,7 @@
     gap: 2rem;
 }
 
-.header__login-signup__button {
+.header__login-signup-button {
     display: inline-block;
 
     text-decoration: none;
@@ -50,7 +50,7 @@
     color: white;
 }
 
-.header__login-signup__icon-container {
+.header__login-signup-icon-container {
     display: flex;
     flex-direction: column;
 
