@@ -165,6 +165,8 @@
 .header__button {
     padding: 1.2rem 1.6rem;
 
+    cursor: pointer;
+
     color: var(--main-white);
     border: 1px solid var(--main-white);
     background: transparent;
