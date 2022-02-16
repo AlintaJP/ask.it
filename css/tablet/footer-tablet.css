@@ -35,7 +35,7 @@
     }
 
     .footer__we-are-ask-it-text {
-        color: white;
+        color: var(--main-white);
 
         font-size: 3.5rem;
         font-weight: 300;
@@ -84,13 +84,17 @@
     .footer__copyright {
         margin-top: 16rem;
 
-        color: rgba(255, 255, 255, 0.9);
+        color: var(--ligth-pale-white);
 
         font-size: 4rem;
         font-weight: 300;
     }
 
-    .footer__socials-logo--offset {
+    .footer__socials-envelope {
+        font-size: 5rem;
+    }
+
+    .footer__socials-envelope--offset {
         top: 17%;
     }
 }

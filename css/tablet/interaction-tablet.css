@@ -101,7 +101,7 @@
 
         text-align: center;
 
-        color: rgba(255, 255, 255, 0.8);
+        color: var(--pale-white);
 
         font-size: 2rem;
         font-weight: 300;

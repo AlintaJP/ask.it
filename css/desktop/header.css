@@ -26,14 +26,14 @@
 
     text-decoration: none;
 
-    color: #c8c7c7;
+    color: var(--grey);
     border-top: 3px solid transparent;
 }
 
 .header__main-nav-link:hover {
-    color: #ffffff;
-    border-top: 3px solid rgb(232, 233, 234);
-    background-color: #1e1d1d;
+    color: var(--main-white);
+    border-top: 3px solid var(--light-grey);
+    background-color: var(--hover-black);
 }
 
 .header__login-signup-container {
@@ -45,16 +45,26 @@
 .header__login-signup-button {
     display: inline-block;
 
+    padding: 4.25rem 0.5rem;
+
     text-decoration: none;
 
-    color: white;
+    color: var(--main-white);
+    border-top: 3px solid transparent;
+}
+
+.header__login-signup-button:hover,
+.header__login-signup-button:active {
+    color: var(--main-white);
+    border-top: 3px solid var(--light-grey);
+    background-color: var(--hover-black);
 }
 
 .header__login-signup-icon-container {
     display: flex;
     flex-direction: column;
 
-    color: #c8c7c7;
+    color: var(--grey);
 
     font-size: 1.4rem;
 
@@ -70,9 +80,6 @@
 }
 
 .header-hero {
-    /* background-image: linear-gradient(rgba(67, 73, 118), rgba(86, 119, 149)),
-    url("/img/header/hero.png");
-  background-blend-mode: multiply; */
     background-image: url("/img/header/hero-with-gradient.jpg");
     background-size: cover;
 }
@@ -126,7 +133,7 @@
 }
 
 .header__main-heading {
-    text-shadow: 1px 5px black;
+    text-shadow: 1px 5px var(--main-black);
 
     font-size: 5rem;
     font-weight: bold;
@@ -158,16 +165,26 @@
 .header__button {
     padding: 1.2rem 1.6rem;
 
-    color: white;
-    border: 1px solid white;
+    color: var(--main-white);
+    border: 1px solid var(--main-white);
     background: transparent;
 
     font-size: 1.6rem;
 }
 
+.header__button:hover,
+.header__button:active {
+    box-shadow: 0 0 10px 2px var(--main-white);
+}
+
 .header__button--alt {
-    color: #037693;
+    color: var(--main-blue);
     background: #e8e9ea;
+}
+
+.header__button--alt:hover,
+.header__button--alt:active {
+    background-color: var(--main-white);
 }
 
 .header__burger-menu {

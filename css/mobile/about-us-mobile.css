@@ -41,22 +41,22 @@
         margin-top: 0;
         margin-bottom: 1.5rem;
 
-        color: rgba(0, 0, 0, 0.8);
+        color: var(--light-black);
 
         font-size: 2rem;
         font-weight: 400;
     }
 
     .about-us__statistics-circle--green {
-        box-shadow: 0 0 0 6px #a5d2cc;
+        box-shadow: 0 0 0 6px var(--sub-green);
     }
 
     .about-us__statistics-circle--red {
-        box-shadow: 0 0 0 6px #f8b0a7;
+        box-shadow: 0 0 0 6px var(--sub-red);
     }
 
     .about-us__statistics-circle--orange {
-        box-shadow: 0 0 0 6px #f7d3b2;
+        box-shadow: 0 0 0 6px var(--sub-orange);
     }
 
     .about-us__main-text {

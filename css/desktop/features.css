@@ -1,7 +1,7 @@
 .features {
     height: 70rem;
 
-    background-color: white;
+    background-color: var(--main-white);
 }
 
 .features__heading--underline {
@@ -19,7 +19,7 @@
 
     text-align: center;
 
-    color: #037693;
+    color: var(--main-blue);
 
     font-size: 4rem;
 
@@ -48,7 +48,7 @@
     content: "";
     transform: rotate(90deg);
 
-    border-bottom: 2px solid #037693;
+    border-bottom: 2px solid var(--main-blue);
 }
 
 .features__feature-container--br--bottom::before {
@@ -64,7 +64,7 @@
 
     content: "";
 
-    border-bottom: 2px solid #037693;
+    border-bottom: 2px solid var(--main-blue);
 }
 
 .features__text--offset {
@@ -115,7 +115,7 @@
 
         text-align: center;
 
-        color: #037693;
+        color: var(--main-blue);
 
         font-size: 4rem;
 

@@ -24,7 +24,7 @@
     }
 
     .header__main-nav-link:hover {
-        border-top: 1px solid rgb(232, 233, 234);
+        border-top: 1px solid var(--light-grey);
     }
 
     .header__login-signup-icon-container {
@@ -46,15 +46,15 @@
     .header__button {
         padding: 0.7rem 0.7rem;
 
-        color: white;
-        border: 1px solid white;
+        color: var(--main-white);
+        border: 1px solid var(--main-white);
         background: transparent;
 
         font-size: 1.4rem;
     }
 
     .header__button--alt {
-        color: #037693;
+        color: var(--main-blue);
         background: #e8e9ea;
     }
 }

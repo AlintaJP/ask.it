@@ -25,8 +25,8 @@
     vertical-align: middle;
     letter-spacing: 3px;
 
-    color: rgba(3, 118, 147, 0.9);
-    border: 1px solid #037693;
+    color: var(--lighter-blue);
+    border: 1px solid var(--main-blue);
     border-bottom: none;
 
     font-size: 3rem;
@@ -68,7 +68,7 @@
 }
 
 .about-us__main-sub-text--blue {
-    color: #037693;
+    color: var(--main-blue);
 }
 
 .about-us__info-container {
@@ -109,7 +109,7 @@
 .about-us__secondary-text {
     width: 56rem;
 
-    color: rgba(0, 0, 0, 0.9);
+    color: var(--lighter-black);
 
     font-size: 2rem;
     font-weight: 300;
@@ -140,22 +140,22 @@
 }
 
 .about-us__statistics-card--bb--green {
-    border-bottom: 3px solid #4ca59a;
+    border-bottom: 3px solid var(--green);
 }
 
 .about-us__statistics-card--bb--red {
-    border-bottom: 3px solid #f26250;
+    border-bottom: 3px solid var(--red);
 }
 
 .about-us__statistics-card--bb--orange {
-    border-bottom: 3px solid #f0a765;
+    border-bottom: 3px solid var(--orange);
 }
 
 .about-us__statistics-circle {
     width: 4rem;
     height: 4rem;
 
-    border: 1px solid white;
+    border: 1px solid var(--main-white);
     border-radius: 50%;
 }
 
@@ -170,37 +170,37 @@
 
     text-align: center;
 
-    color: rgba(0, 0, 0, 0.8);
+    color: var(--light-black);
 
     font-size: 2.5rem;
     font-weight: 300;
 }
 
 .about-us__statistics-circle--green {
-    background-color: #4ca59a;
-    box-shadow: 0 0 0 10px #a5d2cc;
+    background-color: var(--green);
+    box-shadow: 0 0 0 10px var(--sub-green);
 }
 
 .about-us__statistics-circle--red {
-    background-color: #f26250;
-    box-shadow: 0 0 0 10px #f8b0a7;
+    background-color: var(--red);
+    box-shadow: 0 0 0 10px var(--sub-red);
 }
 
 .about-us__statistics-circle--orange {
-    background-color: #f0a765;
-    box-shadow: 0 0 0 10px #f7d3b2;
+    background-color: var(--orange);
+    box-shadow: 0 0 0 10px var(--sub-orange);
 }
 
 .about-us__statistics-number--green {
-    color: #4ca59a;
+    color: var(--green);
 }
 
 .about-us__statistics-number--red {
-    color: #f26250;
+    color: var(--red);
 }
 
 .about-us__statistics-number--orange {
-    color: #f0a765;
+    color: var(--orange);
 }
 
 @media (max-width: 1350px) {
@@ -221,7 +221,7 @@
     .about-us__secondary-text {
         width: 45rem;
 
-        color: rgba(0, 0, 0, 0.9);
+        color: var(--lighter-black);
 
         font-size: 2rem;
         font-weight: 300;

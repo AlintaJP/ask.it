@@ -17,19 +17,19 @@
     .how-it-works__icon {
         padding: 1rem;
 
-        color: #037693;
-        border: 1px solid #037693;
+        color: var(--main-blue);
+        border: 1px solid var(--main-blue);
 
         font-size: 4rem;
     }
 
     .how-it-works__icon--alt {
-        color: white;
-        background-color: #037693;
+        color: var(--main-white);
+        background-color: var(--main-blue);
     }
 
     .how-it-works__text {
-        color: #037693;
+        color: var(--main-blue);
 
         font-size: 2rem;
         font-weight: 400;
