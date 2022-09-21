@@ -1,0 +1,497 @@
+.interaction {
+  display: flex;
+
+  height: 75rem;
+
+  background-color: var(--main-blue);
+}
+
+.interaction__bookmark-container {
+  display: flex;
+  flex-direction: column;
+
+  width: 15%;
+
+  align-items: flex-end;
+}
+
+.interaction__bookmark {
+  position: relative;
+
+  display: inline-block;
+
+  margin-right: 5rem;
+
+  transform: rotate(180deg);
+  text-align: right;
+  vertical-align: middle;
+  letter-spacing: 3px;
+
+  color: var(--ligth-pale-white);
+  border: 1px solid var(--ligth-pale-white);
+  border-bottom: none;
+
+  font-size: 3rem;
+  font-weight: 300;
+
+  writing-mode: vertical-rl;
+}
+
+.interaction__bookmark--padding {
+  padding: 11rem 1.5rem 1.5rem 2rem;
+}
+
+.interaction__bookmark::after {
+  position: absolute;
+  top: 0;
+  left: 25%;
+
+  display: inline-block;
+
+  content: url("/img/interaction/interaction-white-line-cicle.png");
+  transform: rotate(180deg) scale(0.7);
+}
+
+.interaction__text-container {
+  display: flex;
+  flex-direction: column;
+
+  width: 40%;
+
+  align-items: flex-start;
+}
+
+.interaction__main-text {
+  width: 50%;
+  margin-top: 5rem;
+
+  font-size: 5rem;
+  line-height: 1.3;
+}
+
+.interaction__main-text--block {
+  display: block;
+}
+
+.interaction__sub-text {
+  margin-top: 2rem;
+
+  font-size: 2.5rem;
+}
+
+.interaction__sub-text--white-line {
+  padding-right: 18rem;
+
+  background: url("/img/interaction/interaction-white-line.jpg") no-repeat;
+  background-position: 100% 80%;
+  background-size: 45% 0.15rem;
+}
+
+.interaction__main-text--pl {
+  padding-left: 0.5rem;
+}
+
+.interaction__secondary-text {
+  color: var(--pale-white);
+
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 1.3;
+}
+
+.interaction__secondary-text--mt {
+  margin-top: 5rem;
+}
+
+.interaction__secondary-text--small-screen {
+  display: none;
+}
+
+.interaction__secondary-text--pr {
+  padding-right: 5rem;
+}
+
+.interaction__secondary-text--mt-sm {
+  margin-top: 2.5rem;
+}
+
+.interaction__tips-container {
+  display: flex;
+}
+
+.interaction__tips-column {
+  display: flex;
+  flex-direction: column;
+
+  margin-left: 6rem;
+
+  justify-content: center;
+}
+
+.interaction__tips {
+  position: relative;
+
+  display: inline-block;
+
+  width: 70%;
+  margin-top: 5rem;
+
+  word-spacing: 3px;
+
+  color: var(--main-black);
+
+  font-size: 2.5rem;
+}
+
+.interaction__tips-icon::before {
+  position: absolute;
+  bottom: 80%;
+  left: 20%;
+
+  display: inline-block;
+
+  transform: scale(0.7);
+}
+
+.interaction__tips-icon-1::before {
+  content: url("/img/interaction/light-bulb.png");
+}
+
+.interaction__tips-icon-2::before {
+  content: url("/img/interaction/magnifying-glass.png");
+}
+
+.interaction__tips-icon-3::before {
+  content: url("/img/interaction/contract.png");
+}
+
+.interaction__tips-container-1 {
+  position: relative;
+  top: 13.25rem;
+
+  display: flex;
+
+  width: 25rem;
+  height: 25rem;
+
+  text-align: center;
+
+  background: url("/img/interaction/interaction-orange-rectangle-1.png")
+    no-repeat;
+  background-size: cover;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.interaction__tips-container-2 {
+  position: relative;
+  left: 15rem;
+
+  display: flex;
+
+  width: 25rem;
+  height: 25rem;
+
+  text-align: center;
+
+  background: url("/img/interaction/interaction-orange-rectangle-3.png")
+    no-repeat;
+  background-size: cover;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.interaction__tips-container-3 {
+  position: relative;
+  bottom: 13.25rem;
+
+  display: flex;
+
+  width: 25rem;
+  height: 25rem;
+
+  text-align: center;
+
+  background: url("/img/interaction/interaction-orange-rectangle-2.png")
+    no-repeat;
+  background-size: cover;
+
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 1490px) {
+  .interaction__main-text {
+    width: 70%;
+
+    font-size: 5rem;
+    line-height: 1.3;
+  }
+}
+
+@media (max-width: 1300px) {
+  .interaction {
+    display: flex;
+
+    height: 80rem;
+
+    background-color: var(--main-blue);
+  }
+}
+
+@media (max-width: 1200px) {
+  .interaction__tips-icon::before {
+    position: absolute;
+    bottom: 80%;
+    left: 16%;
+
+    display: inline-block;
+
+    transform: scale(0.6);
+  }
+
+  .interaction__bookmark--padding {
+    padding: 12rem 1.5rem 1.5rem 2rem;
+  }
+}
+
+/* TABLET */
+@media (max-width: 980px) {
+  .interaction {
+    height: 70rem;
+  }
+
+  .interaction__tips {
+    position: relative;
+
+    display: inline-block;
+
+    width: 70%;
+    margin-top: 4rem;
+
+    word-spacing: 3px;
+
+    color: black;
+
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+  .interaction__tips-icon::before {
+    position: absolute;
+    bottom: 30%;
+    left: 2.5%;
+
+    display: inline-block;
+
+    transform: scale(0.45);
+  }
+
+  .interaction__tips-column {
+    margin: 0 auto;
+  }
+
+  .interaction__tips-container-1 {
+    top: 0;
+
+    width: 20rem;
+    height: 20rem;
+  }
+
+  .interaction__tips-container-2 {
+    left: 0;
+
+    width: 20rem;
+    height: 20rem;
+  }
+
+  .interaction__tips-container-3 {
+    bottom: 0;
+
+    width: 20rem;
+    height: 20rem;
+  }
+
+  .interaction__text-container {
+    width: 70%;
+    margin-left: 3rem;
+
+    align-items: center;
+    gap: 1rem;
+    justify-content: center;
+  }
+
+  .interaction__bookmark-container {
+    display: none;
+  }
+
+  .interaction__main-text {
+    width: 100%;
+
+    text-align: center;
+    word-spacing: 0.5rem;
+
+    font-size: 3.5rem;
+  }
+
+  .interaction__sub-text {
+    margin-top: 0;
+
+    word-spacing: 0.5rem;
+
+    font-size: 3.3rem;
+  }
+
+  .interaction__sub-text--white-line {
+    padding-right: 0;
+    padding-bottom: 1.5rem;
+
+    background: url("/img/interaction/interaction-white-line.jpg") no-repeat;
+    background-position: 55% 99%;
+    background-size: 73% 0.2rem;
+  }
+
+  .interaction__secondary-text--small-screen {
+    display: block;
+
+    width: 100%;
+    margin-top: 5rem;
+
+    text-align: center;
+
+    color: var(--pale-white);
+
+    font-size: 2.2rem;
+    font-weight: 300;
+    line-height: 1.3;
+
+    letter-spacing: 0.3px;
+  }
+
+  .interaction__secondary-text {
+    display: none;
+  }
+}
+
+/* MOBILE */
+@media (max-width: 685px) {
+  .interaction {
+    flex-direction: column-reverse;
+
+    height: 65rem;
+
+    justify-content: space-evenly;
+  }
+
+  .interaction__tips-column {
+    display: flex;
+    flex-direction: row;
+
+    gap: 3rem;
+    justify-content: center;
+  }
+
+  .interaction__tips-container-1 {
+    top: 0;
+
+    width: 12rem;
+    height: 12rem;
+  }
+
+  .interaction__tips-container-2 {
+    left: 0;
+
+    width: 12rem;
+    height: 12rem;
+
+    background: url("/img/interaction/interaction-orange-rectangle-2.png")
+      no-repeat;
+    background-size: cover;
+  }
+
+  .interaction__tips-container-3 {
+    bottom: 0;
+
+    width: 12rem;
+    height: 12rem;
+
+    background: url("/img/interaction/interaction-orange-rectangle-3.png")
+      no-repeat;
+    background-size: cover;
+  }
+
+  .interaction__text-container {
+    width: 100%;
+    margin-left: 0;
+
+    align-items: center;
+    gap: 0.5rem;
+    justify-content: center;
+  }
+
+  .interaction__main-text {
+    margin-top: 0;
+
+    font-size: 2.8rem;
+    font-weight: 500;
+  }
+
+  .interaction__main-text--pl {
+    padding-left: 0;
+  }
+
+  .interaction__sub-text {
+    font-size: 2.4rem;
+    font-weight: 500;
+  }
+
+  .interaction__sub-text--white-line {
+    padding-bottom: 0.8rem;
+
+    background-size: 73% 0.2rem;
+  }
+
+  .interaction__secondary-text--small-screen {
+    width: 80%;
+    margin-top: 2rem;
+
+    font-size: 1.7rem;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+    word-spacing: 3.5px;
+  }
+
+  .interaction__tips {
+    margin-top: 1.8rem;
+
+    word-spacing: 1px;
+
+    font-size: 1.3rem;
+    font-weight: bold;
+  }
+
+  .interaction__tips-icon::before {
+    position: absolute;
+    z-index: 10;
+    right: 20%;
+    bottom: -80%;
+
+    transform: scale(0.25);
+  }
+
+  .interaction__tips-icon-2::before {
+    content: url("/img/interaction/contract.png");
+  }
+
+  .interaction__tips-icon-3::before {
+    content: url("/img/interaction/magnifying-glass.png");
+  }
+}
+
+@media (max-width: 360px) {
+  .interaction__tips-icon::before {
+    bottom: -180%;
+  }
+}
