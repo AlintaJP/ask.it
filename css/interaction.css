@@ -48,7 +48,7 @@
 
   display: inline-block;
 
-  content: url("/img/interaction/interaction-white-line-cicle.png");
+  content: url('/img/interaction/interaction-white-line-cicle.png');
   transform: rotate(180deg) scale(0.7);
 }
 
@@ -82,7 +82,7 @@
 .interaction__sub-text--white-line {
   padding-right: 18rem;
 
-  background: url("/img/interaction/interaction-white-line.jpg") no-repeat;
+  background: url('/img/interaction/interaction-white-line.jpg') no-repeat;
   background-position: 100% 80%;
   background-size: 45% 0.15rem;
 }
@@ -154,15 +154,15 @@
 }
 
 .interaction__tips-icon-1::before {
-  content: url("/img/interaction/light-bulb.png");
+  content: url('/img/interaction/light-bulb.png');
 }
 
 .interaction__tips-icon-2::before {
-  content: url("/img/interaction/magnifying-glass.png");
+  content: url('/img/interaction/magnifying-glass.png');
 }
 
 .interaction__tips-icon-3::before {
-  content: url("/img/interaction/contract.png");
+  content: url('/img/interaction/contract.png');
 }
 
 .interaction__tips-container-1 {
@@ -176,7 +176,7 @@
 
   text-align: center;
 
-  background: url("/img/interaction/interaction-orange-rectangle-1.png")
+  background: url('/img/interaction/interaction-orange-rectangle-1.webp')
     no-repeat;
   background-size: cover;
 
@@ -195,7 +195,7 @@
 
   text-align: center;
 
-  background: url("/img/interaction/interaction-orange-rectangle-3.png")
+  background: url('/img/interaction/interaction-orange-rectangle-3.webp')
     no-repeat;
   background-size: cover;
 
@@ -214,7 +214,7 @@
 
   text-align: center;
 
-  background: url("/img/interaction/interaction-orange-rectangle-2.png")
+  background: url('/img/interaction/interaction-orange-rectangle-2.webp')
     no-repeat;
   background-size: cover;
 
@@ -348,7 +348,7 @@
     padding-right: 0;
     padding-bottom: 1.5rem;
 
-    background: url("/img/interaction/interaction-white-line.jpg") no-repeat;
+    background: url('/img/interaction/interaction-white-line.jpg') no-repeat;
     background-position: 55% 99%;
     background-size: 73% 0.2rem;
   }
@@ -406,7 +406,7 @@
     width: 12rem;
     height: 12rem;
 
-    background: url("/img/interaction/interaction-orange-rectangle-2.png")
+    background: url('/img/interaction/interaction-orange-rectangle-2.png')
       no-repeat;
     background-size: cover;
   }
@@ -417,7 +417,7 @@
     width: 12rem;
     height: 12rem;
 
-    background: url("/img/interaction/interaction-orange-rectangle-3.png")
+    background: url('/img/interaction/interaction-orange-rectangle-3.png')
       no-repeat;
     background-size: cover;
   }
@@ -482,11 +482,11 @@
   }
 
   .interaction__tips-icon-2::before {
-    content: url("/img/interaction/contract.png");
+    content: url('/img/interaction/contract.png');
   }
 
   .interaction__tips-icon-3::before {
-    content: url("/img/interaction/magnifying-glass.png");
+    content: url('/img/interaction/magnifying-glass.png');
   }
 }
 

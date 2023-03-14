@@ -9,7 +9,7 @@
 .events__heading--underline {
   padding-bottom: 8px;
 
-  background: url("/img/general/underline-blue-left.png") no-repeat;
+  background: url('/img/general/underline-blue-left.png') no-repeat;
   background-position: 5% 100%;
   background-size: 46% 4px;
 }
@@ -92,7 +92,7 @@
       var(--green-gradient),
       var(--green-gradient)
     ),
-    url("/img/events/public-speaking.png");
+    url('/img/events/public-speaking.webp');
 }
 
 .events__card-preview-img-2 {
@@ -100,12 +100,12 @@
       var(--orange-gradient),
       var(--orange-gradient)
     ),
-    url("/img/events/public-speaking-2.png");
+    url('/img/events/public-speaking-2.webp');
 }
 
 .events__card-preview-img-3 {
   background-image: linear-gradient(var(--red-gradient), var(--red-gradient)),
-    url("/img/events/eye.png");
+    url('/img/events/eye.webp');
 }
 
 .events__card-content {
@@ -361,7 +361,7 @@
 
   .events__single-card-img-container--red {
     background-image: linear-gradient(var(--red-gradient), var(--red-gradient)),
-      url("/img/events/eye.png");
+      url('/img/events/eye.png');
   }
 
   .events__single-card-img-container--orange {
@@ -369,7 +369,7 @@
         var(--orange-gradient),
         var(--orange-gradient)
       ),
-      url("/img/events/public-speaking-2.png");
+      url('/img/events/public-speaking-2.png');
   }
 
   .events__card-preview-img-1 {

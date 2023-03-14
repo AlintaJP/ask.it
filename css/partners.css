@@ -3,14 +3,14 @@
 }
 
 .partners--background-img {
-  background-image: url("/img/partners/partners-background.jpg");
+  background-image: url('/img/partners/partners-background.webp');
   background-size: 100% 100%;
 }
 
 .partners__heading--underline {
   padding-bottom: 8px;
 
-  background: url("/img/partners/underline-white-right.png") no-repeat;
+  background: url('/img/partners/underline-white-right.png') no-repeat;
   background-position: 97% 100%;
   background-size: 38% 4px;
 }
@@ -31,7 +31,7 @@
   cursor: pointer;
   pointer-events: all;
 
-  background: url("/img/partners/back-btn-left.png");
+  background: url('/img/partners/back-btn-left.png');
   background-size: cover;
 }
 
@@ -42,7 +42,7 @@
   cursor: pointer;
   pointer-events: all;
 
-  background: url("/img/partners/back-btn-right.png");
+  background: url('/img/partners/back-btn-right.png');
   background-size: 100% 100%;
 }
 
@@ -83,14 +83,14 @@
   }
 
   .partners--background-img {
-    background-image: url("/img/partners/partners-background-tablet.jpg");
+    background-image: url('/img/partners/partners-background-tablet.webp');
     background-size: cover;
   }
 
   .partners__heading--underline {
     padding-bottom: 8px;
 
-    background: url("/img/partners/underline-white-right.png") no-repeat;
+    background: url('/img/partners/underline-white-right.png') no-repeat;
     background-position: 97% 100%;
     background-size: 38% 3px;
   }

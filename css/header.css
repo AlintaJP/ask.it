@@ -76,7 +76,7 @@
 }
 
 .header-hero {
-  background-image: url("/img/header/hero-with-gradient.jpg");
+  background-image: url('/img/header/hero-with-gradient.webp');
   background-size: cover;
 }
 
@@ -138,7 +138,7 @@
 .header__main-heading--underline {
   padding-bottom: 8px;
 
-  background: url("/img/header/main-heading-underline.png") no-repeat;
+  background: url('/img/header/main-heading-underline.png') no-repeat;
   background-position: 100% 100%;
   background-size: 36% 4px;
 }
@@ -301,7 +301,7 @@
     transform: scale(0.7);
 
     border: none;
-    background: url("/img/header/burger-menu.png") no-repeat;
+    background: url('/img/header/burger-menu.webp') no-repeat;
   }
 
   .header__button {
