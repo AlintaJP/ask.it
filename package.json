@@ -1,0 +1,13 @@
+{
+  "devDependencies": {
+    "concat-glob-cli": "^0.1.0",
+    "cssnano": "^5.1.15",
+    "postcss": "^8.4.21",
+    "postcss-cli": "^10.1.0"
+  },
+  "scripts": {
+    "concat": "concat-glob-cli --files \"css/*.css\" --output css/combined.css",
+    "minify": "postcss css/combined.css -u cssnano -o css/combined.min.css",
+    "build": "npm run concat && npm run minify"
+  }
+}
